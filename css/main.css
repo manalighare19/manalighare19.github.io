@@ -1378,8 +1378,8 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 11rem;
+	width: 11rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
@@ -1412,11 +1412,12 @@ header .logo a {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 8.5rem;
+		width: 8.5rem;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
+		text-align: justify;
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1438,14 +1439,15 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 8.5rem;
+		width: 8.5rem;
 		float: none;
 		display: inline-block;
 	}
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+		text-align: justify;
 	}
 }
 
@@ -1754,6 +1756,7 @@ header .logo a {
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
+	text-align: justify;
 }
 .popup-modal .categories {
 	font-family: "poppins-bold", sans-serif;
